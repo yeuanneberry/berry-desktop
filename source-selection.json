@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "reviewed": "2026-10-26",
+  "origin": {
+    "repository": "berry-config (private historical source; no public remote required)",
+    "revision": "f39b0e0ae8361019fd032984b374f683399bacb3"
+  },
+  "status": "MIT source edition; source publication does not apply live configuration",
+  "files": [
+    {
+      "path": "config/kitty/kitty.conf",
+      "source": "apps/berry-desktop/bundle/refresh/config/kitty/kitty.conf",
+      "source_sha256": "9c0637743dc967d3713e5013cc18facc76b0584050b567546b04c4be3ad310e4",
+      "sha256": "1e59ded2999a7ad519e0396f8fc524117e3d3cd17bc8b46a4d216f50c9fee368",
+      "transformation": "Neutral header; remove missing private composition include; remove forced Fish shell to preserve default shell.",
+      "license_review": "Selected original configuration released under MIT after the owner's public-sharing approval; no third-party artwork copied."
+    },
+    {
+      "path": "config/foot/foot.ini",
+      "source": "apps/berry-desktop/bundle/config/foot/foot.ini",
+      "source_sha256": "d60a11488e09e93eb53657b4e97fcc33d31abd2ffdffb0dcd76ca842ff845600",
+      "sha256": "d60a11488e09e93eb53657b4e97fcc33d31abd2ffdffb0dcd76ca842ff845600",
+      "transformation": "Unchanged.",
+      "license_review": "Selected original configuration released under MIT after the owner's public-sharing approval; no third-party artwork copied."
+    },
+    {
+      "path": "config/fuzzel/fuzzel.ini",
+      "source": "apps/berry-desktop/bundle/config/fuzzel/fuzzel.ini",
+      "source_sha256": "f992daeba34ef4f5beb8ec99232393d42ac85f46e91c345b54cbd7f09d2cf08e",
+      "sha256": "f992daeba34ef4f5beb8ec99232393d42ac85f46e91c345b54cbd7f09d2cf08e",
+      "transformation": "Unchanged; terminal=foot is an explicit optional dependency.",
+      "license_review": "Selected original configuration released under MIT after the owner's public-sharing approval; no third-party artwork copied."
+    },
+    {
+      "path": "config/mako/config",
+      "source": "apps/berry-desktop/bundle/config/mako/config",
+      "source_sha256": "2db2ef677b2ff4e80cc2ed5ab57ac1d7bf6f50a687738cb2b0cbfb5dc1f0232e",
+      "sha256": "2db2ef677b2ff4e80cc2ed5ab57ac1d7bf6f50a687738cb2b0cbfb5dc1f0232e",
+      "transformation": "Unchanged.",
+      "license_review": "Selected original configuration released under MIT after the owner's public-sharing approval; no third-party artwork copied."
+    },
+    {
+      "path": "config/mpv/mpv.conf",
+      "source": "apps/berry-desktop/bundle/config/mpv/mpv.conf",
+      "source_sha256": "abf20c15df465d2e5673db212b591f3cad8d245e0cf64381f0499233044df805",
+      "sha256": "abf20c15df465d2e5673db212b591f3cad8d245e0cf64381f0499233044df805",
+      "transformation": "Unchanged; Wayland output requires an appropriate session.",
+      "license_review": "Selected original configuration released under MIT after the owner's public-sharing approval; no third-party artwork copied."
+    },
+    {
+      "path": "config/zathura/zathurarc",
+      "source": "apps/berry-desktop/bundle/refresh/config/zathura/zathurarc",
+      "source_sha256": "df4cae5596f222f0cad6852223b40a6ec6c3eb16b353bfde3b177ccf219a830e",
+      "sha256": "df4cae5596f222f0cad6852223b40a6ec6c3eb16b353bfde3b177ccf219a830e",
+      "transformation": "Unchanged.",
+      "license_review": "Selected original configuration released under MIT after the owner's public-sharing approval; no third-party artwork copied."
+    },
+    {
+      "path": "config/btop/btop.conf",
+      "source": "apps/berry-desktop/bundle/refresh/config/btop/btop.conf",
+      "source_sha256": "8562263cc57b4eaa8c942b05122c483e239d43973ae58e8e17ff730a48a82229",
+      "sha256": "639b2508353e1c6b4272dcef4bd5b35120d147cf600eba314e3d5f4c4c807e20",
+      "transformation": "Rename theme; remove Intel-specific GPU selection; use portable CPU/memory/network/process boxes.",
+      "license_review": "Selected original configuration released under MIT after the owner's public-sharing approval; no third-party artwork copied."
+    },
+    {
+      "path": "config/btop/themes/berry.theme",
+      "source": "private-origin:btop-palette",
+      "source_sha256": "1d821cdd9ea181e1205d6021c649a295309da8e3ad2ca258abddbc9bed265168",
+      "sha256": "1d821cdd9ea181e1205d6021c649a295309da8e3ad2ca258abddbc9bed265168",
+      "transformation": "Filename neutralized; contents unchanged.",
+      "license_review": "Selected original configuration released under MIT after the owner's public-sharing approval; no third-party artwork copied."
+    },
+    {
+      "path": "themes/Berry/gtk-3.0/gtk.css",
+      "source": "apps/berry-desktop/bundle/refresh/themes/Berry/gtk-3.0/gtk.css",
+      "source_sha256": "2fab93981ded927d55b2598e60404d084069d3ab67efc2ca7af4c524934b298a",
+      "sha256": "4db6afd0f173fe562aa20f824e0e90ebfd4334b70395903b205a8787d81b64a9",
+      "transformation": "Neutral descriptive comment; installed Adwaita resource remains an external runtime dependency.",
+      "license_review": "Selected original configuration released under MIT after the owner's public-sharing approval; no third-party artwork copied."
+    },
+    {
+      "path": "themes/Berry/gtk-3.0/gtk-dark.css",
+      "source": "apps/berry-desktop/bundle/refresh/themes/Berry/gtk-3.0/gtk-dark.css",
+      "source_sha256": "4b7dcb1c12b45f1e527d301f077ab1723dcd2cc649e3f8903b92f3fa9e33e23f",
+      "sha256": "4b7dcb1c12b45f1e527d301f077ab1723dcd2cc649e3f8903b92f3fa9e33e23f",
+      "transformation": "Unchanged.",
+      "license_review": "Selected original configuration released under MIT after the owner's public-sharing approval; no third-party artwork copied."
+    },
+    {
+      "path": "config/qt6ct/colors/berry.conf",
+      "source": "private-origin:qt6ct-palette",
+      "source_sha256": "11ebd559a94b74040438b6a3d0e2afa748e6f1f9f6af76cfc52321a3aba939c9",
+      "sha256": "11ebd559a94b74040438b6a3d0e2afa748e6f1f9f6af76cfc52321a3aba939c9",
+      "transformation": "Filename neutralized; contents unchanged.",
+      "license_review": "Selected original configuration released under MIT after the owner's public-sharing approval; no third-party artwork copied."
+    },
+    {
+      "path": "config/hypr/hyprland.lua",
+      "source": "apps/berry-desktop/bundle/config/hypr/hyprland.lua",
+      "transformation": "Neutral header; remove fixed display, private helper/session hooks, helper shortcuts and Roblox import; retain native monitor/layout/navigation and direct application/media bindings. Neutralize hardware-specific refresh-rate comment.",
+      "source_sha256": "fe40a272ab8ef31842305c9b2bb1565a6014ce1f14e6aa47550874f90115ffbf",
+      "sha256": "612ca9413d90aa813ef5a936a73ef2ba04ab2e5412069c281a70df3b9634f990",
+      "license_review": "Selected original configuration released under MIT after the owner's public-sharing approval; no third-party artwork copied."
+    },
+    {
+      "path": "config/waybar/config.json",
+      "source": "apps/berry-desktop/bundle/config/waybar/config.json",
+      "transformation": "Unchanged native modules; no custom Berry helper commands.",
+      "source_sha256": "937dbfdde803e9e4db938ed5cdfc74e103159f3adbc8416403c73db1817aa192",
+      "sha256": "937dbfdde803e9e4db938ed5cdfc74e103159f3adbc8416403c73db1817aa192",
+      "license_review": "Selected original configuration released under MIT after the owner's public-sharing approval; no third-party artwork copied."
+    },
+    {
+      "path": "config/waybar/style.css",
+      "source": "apps/berry-desktop/bundle/config/waybar/style.css",
+      "transformation": "Remove unresolved Roblox reminder stylesheet import; retain native palette and module CSS.",
+      "source_sha256": "697059ae8ebbb2fd6ef22b276318ed2da2f8cc0b04664b6343ad8052634a5e95",
+      "sha256": "f01bd5bb703a7d4f37d9383d086e38e2350fa01bdc125de661e11f2b94845d91",
+      "license_review": "Selected original configuration released under MIT after the owner's public-sharing approval; no third-party artwork copied."
+    }
+  ]
+}

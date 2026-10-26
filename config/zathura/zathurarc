@@ -1,0 +1,11 @@
+set font "JetBrains Mono 11"
+set default-bg "#191c1c"
+set default-fg "#d9d4c5"
+set statusbar-bg "#252a28"
+set statusbar-fg "#d9d4c5"
+set inputbar-bg "#252a28"
+set inputbar-fg "#d9d4c5"
+set highlight-color "#8e977b"
+set selection-clipboard clipboard
+set page-cache-size 5
+set adjust-open best-fit

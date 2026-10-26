@@ -1,0 +1,33 @@
+/* Berry palette, using the installed GTK 3 Adwaita widget layout. */
+@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
+@define-color theme_bg_color #191c1c;
+@define-color theme_fg_color #d9d4c5;
+@define-color theme_base_color #202522;
+@define-color theme_text_color #d9d4c5;
+@define-color theme_selected_bg_color #8e977b;
+@define-color theme_selected_fg_color #191c1c;
+@define-color insensitive_fg_color #636b62;
+@define-color borders #363d3b;
+* { font-family: "JetBrains Mono", monospace; font-size: 10pt; }
+window, dialog, toolbar, menubar, notebook, statusbar, .background {
+    background-color: #191c1c; color: #d9d4c5;
+}
+.view, treeview.view, iconview.view, textview text, entry {
+    background-color: #202522; color: #d9d4c5;
+}
+.view:selected, .view:selected:focus, treeview.view:selected, iconview.view:selected,
+selection { background-color: #8e977b; color: #191c1c; }
+scrolledwindow { border-color: #363d3b; }
+button, combobox button {
+    background-image: none; background-color: #252a28; color: #d9d4c5;
+    border-color: #363d3b; box-shadow: none;
+}
+button:hover { background-color: #363d3b; color: #eee8d9; }
+button:checked, button:active { background-color: #8e977b; color: #191c1c; }
+entry:focus { border-color: #8e977b; box-shadow: none; }
+menu, popover { background-color: #252a28; color: #d9d4c5; border-color: #363d3b; }
+menuitem:hover { background-color: #8e977b; color: #191c1c; }
+notebook header { background-color: #191c1c; }
+notebook tab:checked { background-color: #363d3b; color: #c3ac77; }
+scrollbar slider { background-color: #636b62; }
+scrollbar slider:hover { background-color: #8e977b; }

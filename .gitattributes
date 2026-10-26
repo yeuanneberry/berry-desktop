@@ -1,0 +1,2 @@
+# The Fuzzel prompt intentionally ends with a separator space.
+config/fuzzel/fuzzel.ini whitespace=-blank-at-eol
